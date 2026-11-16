@@ -1,0 +1,17 @@
+title: Karmín
+description: Temně středomořská queer fantasy
+url: "https://perrytheteacher.github.io"
+baseurl: "/karmin"
+lang: cs
+markdown: kramdown
+permalink: pretty
+collections:
+  chapters:
+    output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
