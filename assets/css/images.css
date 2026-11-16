@@ -10,6 +10,9 @@
 .academy-intro { display: grid; grid-template-columns: minmax(9rem, 30%) 1fr; align-items: center; gap: 2rem; margin-top: 2rem; }
 .academy-seal { width: 100%; max-width: 13rem; justify-self: center; filter: drop-shadow(0 .75rem 1.25rem rgba(5, 19, 45, .45)); }
 
+.page-heading--seal { position: relative; padding-right: clamp(8rem, 18vw, 13rem); }
+.page-seal { position: absolute; width: clamp(5.5rem, 13vw, 9rem); right: 3%; bottom: 1rem; opacity: .66; filter: drop-shadow(0 .5rem 1rem rgba(5, 19, 45, .35)); }
+
 .character-card--image { overflow: hidden; }
 .character-card--image figure { margin: -2rem -2rem 1.6rem; }
 .character-card--image img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 33%; }
@@ -22,4 +25,6 @@
   .hero { background-position: center, 74% center; }
   .academy-intro { grid-template-columns: 1fr; gap: 1.2rem; }
   .academy-seal { max-width: 10rem; }
+  .page-heading--seal { padding-right: 6.5rem; }
+  .page-seal { width: 5rem; right: 0; bottom: 1.25rem; opacity: .52; }
 }
