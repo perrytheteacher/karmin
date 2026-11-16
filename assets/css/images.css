@@ -5,6 +5,11 @@
   background-size: cover;
 }
 
+.brand-seal { width: 1.8rem; height: 2.05rem; object-fit: contain; object-position: center; }
+
+.academy-intro { display: grid; grid-template-columns: minmax(9rem, 30%) 1fr; align-items: center; gap: 2rem; margin-top: 2rem; }
+.academy-seal { width: 100%; max-width: 13rem; justify-self: center; filter: drop-shadow(0 .75rem 1.25rem rgba(5, 19, 45, .45)); }
+
 .character-card--image { overflow: hidden; }
 .character-card--image figure { margin: -2rem -2rem 1.6rem; }
 .character-card--image img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 33%; }
@@ -15,4 +20,6 @@
 
 @media (max-width: 720px) {
   .hero { background-position: center, 74% center; }
+  .academy-intro { grid-template-columns: 1fr; gap: 1.2rem; }
+  .academy-seal { max-width: 10rem; }
 }
